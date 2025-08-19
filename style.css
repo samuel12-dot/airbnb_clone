@@ -4,38 +4,32 @@
     box-sizing: border-box;
     font-family: 'poppins', sans-serif;
 }
-
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('./images/banner.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('./images/banner.png');
     background-size: cover;
     background-position: center;
 }
-
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px 7%;
 }
-
 .logo {
     width: 140px;
     cursor: pointer;
 }
-
 .nav-links li {
     list-style-type: none;
     display: inline-block;
     margin: 10px 30px;
 }
-
 .nav-links li a {
     text-decoration: none;
     color: #fff;
 }
-
 .register-btn {
     background: #fff;
     color: #1a1a1a;
@@ -43,12 +37,10 @@ nav {
     border-radius: 20px;
     text-decoration: none;
     font-size: 14px;
-} 
-
+}
 .container {
     padding: 0 7%;
 }
-
 .header h1 {
     font-size: 4vw;
     font-weight: 500;
@@ -96,7 +88,7 @@ nav {
 }
 
 /* ------------------- exclusives --------------------  */
- 
+
 .sub-title {
     margin: 50px 0 20px;
     font-size: 2.2vw;
@@ -130,7 +122,7 @@ nav {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 30px;
     margin-block-end: 30px;
-} 
+}
 .trending div img {
     width: 100%;
     border-radius: 10px;
@@ -138,7 +130,7 @@ nav {
 .trending h3 {
     font-weight: 600;
     margin-block-start: 10px;
-} 
+}
 
 
 /* ----------- cta ----------- */
@@ -151,12 +143,34 @@ nav {
     padding: 5%;
     color: #fff;
 }
-
 .cta h3 {
     font-size: 4vw;
     line-height: 5.3vw;
     font-weight: 500;
 }
 .cta p {
-     font-size: 18px;
+    font-size: 18px;
+    margin: 10px 0;
+}
+.cta-btn {
+    background: #ff5361;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 30px;
+    border-radius: 8px;
+    margin-block-start: 20px;
+    display: inline-block;
+}
+
+
+/* ----------- Travelers -stories --------------   */
+.stories {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 30px;
+    margin-block-end: 30px;
+}
+.stories div img {
+     width: 100%;
+     border-radius: 10px;
 }
